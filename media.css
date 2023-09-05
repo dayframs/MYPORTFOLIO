@@ -19,6 +19,15 @@
 header {
     padding: 10px 15px;
 }
+header .directories i {
+    display: inline;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+header ul {
+    display: none;
+}
 .logo {
     font-size: 20px;
 }
