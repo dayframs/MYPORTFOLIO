@@ -20,7 +20,10 @@ header {
     padding: 10px 15px;
 }
 .logo {
-    font-size: 16px;
+    font-size: 20px;
+}
+.logo span {
+    font-size: 36px;
 }
 .directories ul li {
     margin: 10px 5px;
