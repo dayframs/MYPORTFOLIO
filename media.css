@@ -4,6 +4,10 @@
     background-position: left;
     padding-top: 0px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
 }
 .herotext {
     margin-top: 40%;
