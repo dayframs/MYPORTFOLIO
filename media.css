@@ -2,7 +2,8 @@
 .heropage {
     background-size: contain;
     background-position: left;
-    padding-top: 10px;
+    padding-top: 0px;
+    height: 70vh;
 }
 .herotext {
     margin-top: 35%;
