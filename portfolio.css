@@ -33,6 +33,13 @@ header {
 .logo {
     font-size: 30px;
     font-style: oblique;
+    background-color: gray;
+    padding: 8px 4px;
+    border-radius: 105px 0 85px 0;
+    border-left: 5px solid pink;
+}
+.logo span {
+    font-size: 28px;
 }
 .directories ul li {
     display: inline-block;

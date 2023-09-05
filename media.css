@@ -3,16 +3,17 @@
     background-size: contain;
     background-position: left;
     padding-top: 0px;
-    height: 70vh;
+    height: 100vh;
 }
 .herotext {
-    margin-top: 35%;
-    padding: 0 20px;
+    margin-top: 2%;
+    padding: 230px 20px;
 }
 .herotext h1 {
     font-size: 28px;
 }
 .herotext p {
+    margin-top: 30px;
     font-size: 12px;
 } 
 header {
