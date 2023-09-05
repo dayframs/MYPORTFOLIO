@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: black;
+    color: antiquewhite;
+}
+.heropage {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/IMG4-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-attachment: fixed;
+}
+header {
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.directories ul li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+.directories ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 18px;
+    position: relative;
+}
+.directories ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(255, 0, 79);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+.directories ul li a:hover::after{
+    width: 100%;
+}
+.herotext {
+    margin-top: 20%;
+    width: 70%;
+    font-size: 17px;
+    margin-left: auto;
+    text-align: right;
+    padding: 0 60px;
+}
+.herotext h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+.herotext p {
+    text-transform: uppercase;
+    font-weight: 100;
+} 
+.herotext h1 span {
+    color: rgb(255, 0, 79);
+}
+.about {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    padding: 0 60px;
+    margin-top: 20px;
+    text-align: left;
+}
+.about img {
+    width: 100%;
+    background: rgb(156, 115, 122);
+    border-radius: 10px;
+}
+.aboutA {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 10%;
+}
+.aboutA h2 {
+    font-size: 40px;
+    color: white;
+    margin-right: auto;
+}
+.aboutB {
+    margin: 20px 0;
+    display: flex;
+}
+.aboutB p {
+    margin-right: 20px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.aboutB p::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(255, 0, 79);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.15s;
+}
+.aboutB p:active::after {
+    width: 50%;
+}
+footer {
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
