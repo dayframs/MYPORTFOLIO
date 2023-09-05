@@ -1,17 +1,15 @@
 @media(max-width: 600px){
-    .herotext {
-    padding: 0 20px;
-}
 .heropage {
     background-size: contain;
-    padding-top: 40px;
+    background-position: left;
+    padding-top: 10px;
 }
 .herotext {
-    margin-top: 45%;
+    margin-top: 35%;
     padding: 0 20px;
 }
 .herotext h1 {
-    font-size: 26px;
+    font-size: 28px;
 }
 .herotext p {
     font-size: 12px;
