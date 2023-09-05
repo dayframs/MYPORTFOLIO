@@ -3,22 +3,22 @@
     padding: 0 20px;
 }
 .herotext h1 {
-    font-size: 30px;
+    font-size: 26px;
 }
 .herotext p {
     font-size: 12px;
 } 
 header {
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 .logo {
-    font-size: 18px;
+    font-size: 16px;
 }
 .directories ul li {
     margin: 10px 5px;
 }
 .directories ul li a {
-    font-size: 14px;
+    font-size: 12px;
 }
 .about {
     padding: 0 20px;
