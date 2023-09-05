@@ -4,7 +4,11 @@
 }
 .heropage {
     background-size: cover;
-    padding-top: 80px;
+    padding-top: 60px;
+}
+.herotext {
+    margin-top: 40%;
+    padding: 0 20px;
 }
 .herotext h1 {
     font-size: 26px;
