@@ -1,1 +1,4 @@
-// alert(6)
+function display() {
+    let x = 'skills'
+    display.innerText = x;
+}

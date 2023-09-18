@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body {
     background: black;
@@ -92,11 +93,17 @@ header .span1,
     color: grey;
 } */
 .about {
+    height: 100vh;
     display: grid;
     grid-template-columns: 2fr 1.5fr;
     padding: 0 60px;
     margin-top: 20px;
     text-align: left;
+    background-image: url(./IMG3-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-attachment: fixed;
 }
 .about img {
     width: 100%;
@@ -138,6 +145,28 @@ header .span1,
 .aboutB p:active::after {
     width: 50%;
 }
+.contact {
+    height: 400px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.contactA1 {
+    max-height: 220px;
+    background-color: pink;
+    padding: 5px; 
+}
+.contactA2 {
+    max-height: 370px;
+    background-color: red;  
+    padding: 5px; 
+}
+.contactA3 {
+    max-height: 45px;
+    background-color: blue; 
+    padding: 5px;  
+}
 footer {
     background-color: grey;
     height: 80px;
@@ -146,4 +175,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#display {
+    display: none;
 }
